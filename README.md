@@ -6,3 +6,5 @@
 
 
 [https://github.com/Dedipya1052/Digital-Blood-Bank-System/blob/main/script.js]
+
+[https://github.com/Dedipya1052/Digital-Blood-Bank-System/blob/main/styles.css]
