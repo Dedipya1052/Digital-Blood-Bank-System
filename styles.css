@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #11111;
+    background-image:
+      url("https://static.vecteezy.com/system/resources/previews/008/191/708/non_2x/human-blood-donate-and-heart-rate-on-white-background-free-vector.jpg"),
+                     url("https://t3.ftcdn.net/jpg/05/92/22/18/360_F_592221846_7FKq0dvmqk6UAp5OciKaNxLB19SH0xV9.jpg"),
+                      url("https://t4.ftcdn.net/jpg/02/21/47/99/240_F_221479946_2yUmWRmVPBka6d4zcXbBhJbRra8WcpQV.jpg");
+    background-size: cover, cover, cover;
+    background-position: center, top left, top right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h1 {
+    color: #dc3545;
+}
+
+
+.login-options button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #FF3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-options button:hover {
+    background-color: #F00077;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#user-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-form input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #218838;
+}
+
+#profiles {
+    margin-top: 20px;
+}
+
+.profile {
+    background-color: #f0f9fa;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.profile button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.shutterstock.com/image-vector/blood-donation-logo-design-vector-600nw-2233019493.jpg" alt="Blood Bank Logo" class="logo">
+            <h1>Welcome to Blood Bank</h1>
+        </div>
+        <div class="login-options">
+            <button onclick="showLogin('recipient')">Recipient Login</button>
+            <button onclick="showLogin('donor')">Donor Login</button>
+        </div>
+        <div id="login-form" class="hidden">
+            <h2 id="form-title"></h2>
+            <form id="user-form">
+                <!-- Form fields will be inserted here dynamically -->
+            </form>
+            <button onclick="submitForm()">Submit</button>
+        </div>
+        <div id="results" class="hidden">
+            <h2>Welcome to Blood Bank</h2>
+            <p>We are here to help you easily find the blood you require from a healthy person.</p>
+            <div id="search-form">
+                <input type="text" id="blood-group" placeholder="Enter blood group required">
+                <input type="text" id="location" placeholder="Enter nearby location">
+                <button onclick="searchDonors()">Search</button>
+            </div>
+            <div id="profiles">
+                <!-- Profiles will be displayed here -->
+            </div>
+        </div>
+        <div id="donor-profile" class="hidden">
+            <h2>Donor Profile</h2>
+            <div id="profile-details">
+                <!-- Donor profile details will be displayed here -->
+            </div>
+            <button onclick="goBack()">Go Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
